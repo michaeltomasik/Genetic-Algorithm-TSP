@@ -294,10 +294,10 @@ def newGeneration(orders):
 
 # In[177]:
 
-numberOfGenerations = 100
+numberOfGenerations = 10000
 length = len(arrayTSP)
-if(length < 800):
-    numberOfGenerations = 3000
+if(length < 500):
+    numberOfGenerations = 80000
 if(length < 100):
     numberOfGenerations = 500000
 #20 3000000
